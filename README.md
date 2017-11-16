@@ -1,2 +1,0 @@
-# IdeaSample
-Idea实例
