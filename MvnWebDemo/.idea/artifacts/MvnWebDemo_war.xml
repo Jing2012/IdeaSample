@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MvnWebDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MvnWebDemo.war">
+      <element id="artifact" artifact-name="MvnWebDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
