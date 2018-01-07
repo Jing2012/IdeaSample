@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
         String currTime = dateFormat.format(new Date());
 
         request.setAttribute("currTime", currTime);
-        request.getRequestDispatcher("/jsp/hello.jsp").forward(request, response);//请求转发到hello.jsp
+        request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request, response);//请求转发到hello.jsp
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
